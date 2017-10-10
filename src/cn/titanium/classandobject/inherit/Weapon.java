@@ -1,6 +1,7 @@
 package cn.titanium.classandobject.inherit;
 
 
+
 /**
  * 武器类
  * @author Administrator

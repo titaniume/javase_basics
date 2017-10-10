@@ -6,6 +6,6 @@ package cn.titanium.classandobject.inherit;
  *2017年10月10日下午6:42:26
  */
 public class Item {
-	String name;
-	int price;
+	 String name;
+	 int price;
 }
