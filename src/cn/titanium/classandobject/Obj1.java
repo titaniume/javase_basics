@@ -5,7 +5,7 @@ package cn.titanium.classandobject;
  * @author Administrator
  *2017年10月10日下午5:22:37
  */
-public class obj01 {
+public class Obj1 {
 	public static void main(String[] args) {
 		
 	/*引用的概念，如果一个变量是类类型，而非基本类型，那么该变量叫做引用*/
