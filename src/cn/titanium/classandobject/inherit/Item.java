@@ -8,4 +8,18 @@ package cn.titanium.classandobject.inherit;
 public class Item {
 	 String name;
 	 int price;
+	 
+	 public Item(){
+		 
+	 }
+	 
+	 public static Item instace = null;
+	 
+	 public static Item getInstance(Item instace ){
+		 
+		 if(null == instace){
+			 instace = new Item();
+		 }
+		 return instace;
+	 }
 }

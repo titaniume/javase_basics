@@ -14,11 +14,11 @@ public class Hero1 {
 		maxHP = 200; // 初始化块
 	}
 
-	public Hero1() {
+/*	public Hero1() {
 		hp = 100; // 构造方法中初始化
 		System.out.println(hp);
 
-	}
+	}*/
 	
 	
 	//物品栏的容量
@@ -28,6 +28,16 @@ public class Hero1 {
         itemCapacity = 6;//静态初始化块块初始化
     }
      
+    public Hero1(){
+    	
+    }
+    
+    public static Hero1 instace = new Hero1();
+    
+    public static Hero1 getInstace(Hero1 instace){
+    	return  instace;
+    }
+    
 	
 	public static void main(String[] args) {
 		Hero1 h1 = new Hero1();
