@@ -96,7 +96,7 @@ public class ObjCase {
 		
 	//7:instanceof
 	/*instanceof Hero 判断一个引用所指向的对象，是否是Hero类型，或者Hero的子类*/
-		Hero h = new Hero();
+		/*Hero h = new Hero();
 		ADHero ad = new ADHero();
 		APHero ap = new APHero();
 		Hero h1= ad;
@@ -109,8 +109,16 @@ public class ObjCase {
          
         //判断引用h1指向的对象，是否是Hero的子类型
         System.out.println(h1 instanceof Hero);
-	
-		
+	 */
+       //练习：类型转换
+		/*如下转换能否成功？
+		如果不能，是哪一行会出错？
+		为什么会出错*/
+        ADHero ad = new ADHero();
+        Hero h = ad;
+        AD adi = (AD) h;
+        APHero ap = (APHero) adi;
+       //因为不能把ADHero转换为APHero,这两种类型之间没有关系
 	}
 	
 }
