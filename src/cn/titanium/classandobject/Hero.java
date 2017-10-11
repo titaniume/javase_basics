@@ -66,8 +66,15 @@ public class Hero {
         this.hp = hp;
     }
     
-   public static String copyright; //类属性， 静态属性
-    
+    //类属性
+    static String copyright; //类属性， 静态属性
+   
+    //类方法，静态方法
+    //通过类就可以直接调用
+   public static void battleWin(){
+	   System.out.println(copyright);
+	   System.out.println("battle Win!");
+   }
  
    
    public static void main(String[] args) {
@@ -105,7 +112,8 @@ public class Hero {
        
        
        Hero.copyright = "版权由Riot Games公司所有";
-       
+       //无需对象，直接通过类调用
+       Hero.battleWin();
       
    }   
      
