@@ -1,6 +1,6 @@
 package cn.titanium.interfaceandinheritance.interfaces;
 
-public class ADHero implements AD {
+public class ADHero extends Hero implements AD {
 
 	@Override
 	public void physicAttack() {

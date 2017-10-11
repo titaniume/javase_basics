@@ -1,6 +1,6 @@
 package cn.titanium.interfaceandinheritance.interfaces;
 
-public class APHero implements AP {
+public class APHero extends Hero implements AP {
 
 	@Override
 	public void magicAttack() {

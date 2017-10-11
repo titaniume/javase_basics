@@ -1,6 +1,6 @@
 package cn.titanium.interfaceandinheritance.interfaces;
 
-import cn.titanium.classandobject.Hero;
+import cn.titanium.interfaceandinheritance.interfaces.Hero;
 
 public class Support extends Hero implements Healer {
 
