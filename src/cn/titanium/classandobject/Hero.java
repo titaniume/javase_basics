@@ -65,6 +65,9 @@ public class Hero {
         System.out.println("两个参数的构造方法");
         this.hp = hp;
     }
+    
+   public static String copyright; //类属性， 静态属性
+    
  
    
    public static void main(String[] args) {
@@ -99,6 +102,10 @@ public class Hero {
        Hero teemo1 =  new Hero("提莫",383);
        
        System.out.println(teemo1.name);
+       
+       
+       Hero.copyright = "版权由Riot Games公司所有";
+       
       
    }   
      
