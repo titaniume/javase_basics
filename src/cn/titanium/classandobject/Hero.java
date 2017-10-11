@@ -12,9 +12,9 @@ public class Hero {
 	
 	// 方法名和类名一样（包括大小写）
     // 没有返回类型
-	public Hero(){
+/*	public Hero(){
 		 System.out.println("实例化一个对象的时候，必然调用构造方法");
-	}
+	}*/
 	
 	//有参的构造方法
     //默认的无参的构造方法就失效了
@@ -75,7 +75,12 @@ public class Hero {
 	   System.out.println(copyright);
 	   System.out.println("battle Win!");
    }
- 
+   
+   public Hero(){
+       hp = 100; //构造方法中初始化
+        
+   }
+    
    
    public static void main(String[] args) {
 	  /* Hero garen =  new Hero("盖伦");  
@@ -114,7 +119,7 @@ public class Hero {
        Hero.copyright = "版权由Riot Games公司所有";
        //无需对象，直接通过类调用
        Hero.battleWin();
-      
+     
    }   
      
 	
