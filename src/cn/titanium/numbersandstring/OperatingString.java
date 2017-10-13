@@ -13,7 +13,7 @@ public class OperatingString {
 		String sentence = "盖伦,在进行了连续8次击杀后,获得了 超神 的称号";
 		char c = sentence.charAt(0);
 		System.out.println(c);
-		
+	
 		//2:获取对应的字符数组
 		/*toCharArray()
 		获取对应的字符数组*/
