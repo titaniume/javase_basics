@@ -37,7 +37,7 @@ public class DateFormat {
         String str1 = "2017/10/14 15:55:55";
           
         try {
-            Date d = sdf1.parse(str1);
+            Date d = sdf1.parse(str1); 
             System.out.printf("字符串 %s 通过格式  yyyy/MM/dd HH:mm:ss %n转换为日期对象: %s",str1,d.toString());
         } catch (ParseException e) {
             // TODO Auto-generated catch block
